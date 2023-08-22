@@ -13,8 +13,8 @@ const MyProfile = () => {
 
   useEffect(() => {
     const apiCall = setTimeout(() => {
-      axios.get("https://api.github.com/users/emrekaraa").then((res) => setData(res.data));
-      axios.get("https://api.github.com/users/emrekaraa/repos").then((res) => setRepos(res.data));
+      axios.get("https://api.github.com/users/manish-nigam").then((res) => setData(res.data));
+      axios.get("https://api.github.com/users/manish-nigam/repos").then((res) => setRepos(res.data));
     }, 1500);
     return () => clearTimeout(apiCall);
   }, []);
