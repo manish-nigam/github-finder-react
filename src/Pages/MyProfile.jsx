@@ -44,17 +44,17 @@ const MyProfile = () => {
                 <h1 className="card-title text-3xl">{data.name}</h1>
                 <div className="badges my-1 flex w-full justify-evenly flex-wrap">
                   <div className="badge badge-primary cursor-pointer ">
-                    <a href="https://github.com/emrekaraa?tab=repositories">
+                    <a href="https://github.com/manish-nigam?tab=repositories">
                       <b>Repos: {data.public_repos}</b>
                     </a>
                   </div>
                   <div className="badge badge-secondary cursor-pointer ">
-                    <a href="https://github.com/emrekaraa?tab=followers">
+                    <a href="https://github.com/manish-nigam?tab=followers">
                       <b>Followers {data.followers}</b>
                     </a>
                   </div>
                   <div className="badge badge-accent cursor-pointer">
-                    <a href="https://github.com/emrekaraa?tab=following">
+                    <a href="https://github.com/manish-nigam?tab=following">
                       <b>Following {data.following}</b>
                     </a>
                   </div>
