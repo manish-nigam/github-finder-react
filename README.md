@@ -2,8 +2,8 @@
 
    - My personel react.js project
 
-   * Click to view live demo 
-((https://github-finder-react-xi.vercel.app/))
+   * Click to view live demo
+   * (https://github-finder-react-xi.vercel.app/))
 ## State Management Tool
 
     - Context api
